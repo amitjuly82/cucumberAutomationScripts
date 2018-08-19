@@ -13,11 +13,11 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2651368017,
+  "duration": 1916647819,
   "status": "passed"
 });
 formatter.before({
-  "duration": 70263,
+  "duration": 141709,
   "status": "passed"
 });
 formatter.scenario({
@@ -57,7 +57,7 @@ formatter.match({
   "location": "hookSD.user_need_to_be_on_facebook_login_page()"
 });
 formatter.result({
-  "duration": 8448818338,
+  "duration": 3339142222,
   "status": "passed"
 });
 formatter.match({
@@ -70,7 +70,7 @@ formatter.match({
   "location": "hookSD.user_enters_user_first_name(String)"
 });
 formatter.result({
-  "duration": 249608126,
+  "duration": 4581404373,
   "status": "passed"
 });
 formatter.match({
@@ -83,23 +83,23 @@ formatter.match({
   "location": "hookSD.user_check_user_first_name_is_present(String)"
 });
 formatter.result({
-  "duration": 26437046,
+  "duration": 24875669,
   "status": "passed"
 });
 formatter.after({
-  "duration": 76184,
+  "duration": 57237,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2334139253,
+  "duration": 2340382078,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1870363974,
+  "duration": 1832501040,
   "status": "passed"
 });
 formatter.before({
-  "duration": 79342,
+  "duration": 116052,
   "status": "passed"
 });
 formatter.scenario({
@@ -135,7 +135,7 @@ formatter.match({
   "location": "hookSD.user_need_to_be_on_facebook_login_page()"
 });
 formatter.result({
-  "duration": 3787137845,
+  "duration": 3377859198,
   "status": "passed"
 });
 formatter.match({
@@ -148,7 +148,7 @@ formatter.match({
   "location": "hookSD.user_enters_user_first_name(String)"
 });
 formatter.result({
-  "duration": 4478333536,
+  "duration": 3580420698,
   "status": "passed"
 });
 formatter.match({
@@ -161,15 +161,15 @@ formatter.match({
   "location": "hookSD.user_check_user_first_name_is_present(String)"
 });
 formatter.result({
-  "duration": 31622693,
+  "duration": 33315846,
   "status": "passed"
 });
 formatter.after({
-  "duration": 71052,
+  "duration": 48158,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2316868765,
+  "duration": 2337187111,
   "status": "passed"
 });
 });

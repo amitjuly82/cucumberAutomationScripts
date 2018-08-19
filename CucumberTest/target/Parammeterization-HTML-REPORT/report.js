@@ -38,7 +38,7 @@ formatter.match({
   "location": "parammeterizationSD.user_need_to_be_on_facebook_login_page()"
 });
 formatter.result({
-  "duration": 11430079433,
+  "duration": 8796298512,
   "status": "passed"
 });
 formatter.match({
@@ -51,7 +51,7 @@ formatter.match({
   "location": "parammeterizationSD.user_enters_user_first_name(String)"
 });
 formatter.result({
-  "duration": 166576995,
+  "duration": 152364114,
   "status": "passed"
 });
 formatter.match({
@@ -64,14 +64,14 @@ formatter.match({
   "location": "parammeterizationSD.user_check_user_first_name_is_present(String)"
 });
 formatter.result({
-  "duration": 50701071,
+  "duration": 22488325,
   "status": "passed"
 });
 formatter.match({
   "location": "parammeterizationSD.close_the_browser()"
 });
 formatter.result({
-  "duration": 3975329003,
+  "duration": 3678273786,
   "status": "passed"
 });
 });

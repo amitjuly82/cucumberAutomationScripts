@@ -54,7 +54,7 @@ formatter.match({
   "location": "taggingSD.user_need_to_be_on_facebook_login_page()"
 });
 formatter.result({
-  "duration": 6580810148,
+  "duration": 8809935741,
   "status": "passed"
 });
 formatter.match({
@@ -67,7 +67,7 @@ formatter.match({
   "location": "taggingSD.user_enters_user_first_name(String)"
 });
 formatter.result({
-  "duration": 4517820158,
+  "duration": 143946042,
   "status": "passed"
 });
 formatter.match({
@@ -80,14 +80,14 @@ formatter.match({
   "location": "taggingSD.user_check_user_first_name_is_present(String)"
 });
 formatter.result({
-  "duration": 30175986,
+  "duration": 22055303,
   "status": "passed"
 });
 formatter.match({
   "location": "taggingSD.close_the_browser()"
 });
 formatter.result({
-  "duration": 3921343334,
+  "duration": 3695986633,
   "status": "passed"
 });
 formatter.scenario({
@@ -128,7 +128,7 @@ formatter.match({
   "location": "taggingSD.user_need_to_be_on_facebook_login_page()"
 });
 formatter.result({
-  "duration": 11864204119,
+  "duration": 5697004255,
   "status": "passed"
 });
 formatter.match({
@@ -141,7 +141,7 @@ formatter.match({
   "location": "taggingSD.user_enters_user_first_name(String)"
 });
 formatter.result({
-  "duration": 145598359,
+  "duration": 3365654454,
   "status": "passed"
 });
 formatter.match({
@@ -154,14 +154,14 @@ formatter.match({
   "location": "taggingSD.user_check_user_first_name_is_present(String)"
 });
 formatter.result({
-  "duration": 23348632,
+  "duration": 25849080,
   "status": "passed"
 });
 formatter.match({
   "location": "taggingSD.close_the_browser()"
 });
 formatter.result({
-  "duration": 3858409396,
+  "duration": 3676010783,
   "status": "passed"
 });
 formatter.scenario({
@@ -202,7 +202,7 @@ formatter.match({
   "location": "taggingSD.user_need_to_be_on_facebook_login_page()"
 });
 formatter.result({
-  "duration": 9759979616,
+  "duration": 5601717325,
   "status": "passed"
 });
 formatter.match({
@@ -215,7 +215,7 @@ formatter.match({
   "location": "taggingSD.user_enters_user_first_name(String)"
 });
 formatter.result({
-  "duration": 132254309,
+  "duration": 3546669461,
   "status": "passed"
 });
 formatter.match({
@@ -228,14 +228,14 @@ formatter.match({
   "location": "taggingSD.user_check_user_first_name_is_present(String)"
 });
 formatter.result({
-  "duration": 28960593,
+  "duration": 23976467,
   "status": "passed"
 });
 formatter.match({
   "location": "taggingSD.close_the_browser()"
 });
 formatter.result({
-  "duration": 3855013877,
+  "duration": 3728758932,
   "status": "passed"
 });
 formatter.scenario({
@@ -276,7 +276,7 @@ formatter.match({
   "location": "taggingSD.user_need_to_be_on_facebook_login_page()"
 });
 formatter.result({
-  "duration": 5465710274,
+  "duration": 9003047338,
   "status": "passed"
 });
 formatter.match({
@@ -289,7 +289,7 @@ formatter.match({
   "location": "taggingSD.user_enters_user_first_name(String)"
 });
 formatter.result({
-  "duration": 4637739363,
+  "duration": 161015473,
   "status": "passed"
 });
 formatter.match({
@@ -302,14 +302,14 @@ formatter.match({
   "location": "taggingSD.user_check_user_first_name_is_present(String)"
 });
 formatter.result({
-  "duration": 30296380,
+  "duration": 27938006,
   "status": "passed"
 });
 formatter.match({
   "location": "taggingSD.close_the_browser()"
 });
 formatter.result({
-  "duration": 3798572951,
+  "duration": 3724758315,
   "status": "passed"
 });
 });

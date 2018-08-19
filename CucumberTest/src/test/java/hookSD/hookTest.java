@@ -25,7 +25,7 @@ import cucumber.api.junit.Cucumber;
 		plugin = {
 		"pretty",
 		"html:target/Hook-HTML-REPORT",
-		"json:target/Hook-JSON-REPORT"
+		"json:target/Hook-JSON-REPORT.json"
 		}
 
 		)

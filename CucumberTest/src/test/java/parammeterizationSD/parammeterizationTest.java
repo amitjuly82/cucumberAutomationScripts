@@ -19,7 +19,7 @@ import cucumber.api.junit.Cucumber;
 		plugin = {
 		"pretty",
 		"html:target/Parammeterization-HTML-REPORT",
-		"json:target/Parammeterization-JSON-REPORT"
+		"json:target/Parammeterization-JSON-REPORT.json"
 		}
 
 		)

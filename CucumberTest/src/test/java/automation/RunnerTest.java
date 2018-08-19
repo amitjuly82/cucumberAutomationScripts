@@ -22,7 +22,7 @@ import cucumber.api.junit.Cucumber;
 		
 		"pretty",
 		"html:target/automation-HTML-REPORT",
-		"json:target/automation-JSON-REPORT"
+		"json:target/automation-JSON-REPORT.json"
 		
 		}
 

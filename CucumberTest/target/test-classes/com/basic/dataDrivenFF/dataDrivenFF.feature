@@ -6,7 +6,7 @@ When User enters user "<user>" first name
 And User enters "<surname>" as surname
 Then User check user "<user>" first name is present
 But User mobile field should be blank
-#Then Close the browser
+Then Close the browser
 Examples: 
 	| user     | surname      |
 	| Amit     | Kumar        |

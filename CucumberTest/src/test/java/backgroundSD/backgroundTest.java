@@ -19,7 +19,7 @@ import cucumber.api.junit.Cucumber;
 		plugin = {
 		"pretty",
 		"html:target/Multiple-Scenario-HTML-REPORT",
-		"json:target/-Multiple-Scenario-JSON-REPORT"
+		"json:target/Multiple-Scenario-JSON-REPORT.json"
 		}
 
 		)

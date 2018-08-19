@@ -19,7 +19,7 @@ import cucumber.api.junit.Cucumber;
 		plugin = {
 		"pretty",
 		"html:target/Data-Driven-HTML-REPORT",
-		"json:target/Data-Driven-JSON-REPORT"
+		"json:target/Data-Driven-JSON-REPORT.json"
 		}
 
 		)

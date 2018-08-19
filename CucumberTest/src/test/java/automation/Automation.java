@@ -27,11 +27,13 @@ public class Automation {
 		driver = new ChromeDriver();
 		//System.setProperty("webdriver.gecko.driver", "C:\\Users\\ambhatta\\OneDrive - Nokia\\Learning\\SoftwareDownload-Automation\\geckodriver.exe");
 		//driver = new FirefoxDriver();
-		
+
 		//System.setProperty("webdriver.ie.driver", "C:\\Users\\ambhatta\\OneDrive - Nokia\\Learning\\SoftwareDownload-Automation\\IEDriverServer_x64_3.13.0\\IEDriverServer.exe");
 		//driver = new InternetExplorerDriver();
-		
-		driver.navigate().to("https://www.facebook.com/"); } 
+
+		driver.navigate().to("https://www.facebook.com/"); 
+		System.out.println("Opening URL In Browser");	
+	} 
 
 	@When("^User enters user first name$") 
 	public void user_enters_user_first_name() { 

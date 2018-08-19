@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8809935741,
+              "duration": 4378709057,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 143946042,
+              "duration": 1584881574,
               "status": "passed"
             },
             "line": 8,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 22055303,
+              "duration": 24231860,
               "status": "passed"
             },
             "line": 9,
@@ -55,18 +55,6 @@
                 }
               ],
               "location": "taggingSD.user_check_user_first_name_is_present(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3695986633,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "Close the browser",
-            "match": {
-              "location": "taggingSD.close_the_browser()"
             },
             "keyword": "Then "
           }
@@ -92,7 +80,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5697004255,
+              "duration": 5386883581,
               "status": "passed"
             },
             "line": 14,
@@ -104,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 3365654454,
+              "duration": 133179703,
               "status": "passed"
             },
             "line": 15,
@@ -122,7 +110,7 @@
           },
           {
             "result": {
-              "duration": 25849080,
+              "duration": 23202791,
               "status": "passed"
             },
             "line": 16,
@@ -135,18 +123,6 @@
                 }
               ],
               "location": "taggingSD.user_check_user_first_name_is_present(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3676010783,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Close the browser",
-            "match": {
-              "location": "taggingSD.close_the_browser()"
             },
             "keyword": "Then "
           }
@@ -168,7 +144,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5601717325,
+              "duration": 3574646152,
               "status": "passed"
             },
             "line": 21,
@@ -180,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 3546669461,
+              "duration": 1775883323,
               "status": "passed"
             },
             "line": 22,
@@ -198,7 +174,7 @@
           },
           {
             "result": {
-              "duration": 23976467,
+              "duration": 274792479,
               "status": "passed"
             },
             "line": 23,
@@ -211,18 +187,6 @@
                 }
               ],
               "location": "taggingSD.user_check_user_first_name_is_present(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3728758932,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "Close the browser",
-            "match": {
-              "location": "taggingSD.close_the_browser()"
             },
             "keyword": "Then "
           }
@@ -244,7 +208,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9003047338,
+              "duration": 3619520566,
               "status": "passed"
             },
             "line": 34,
@@ -256,7 +220,7 @@
           },
           {
             "result": {
-              "duration": 161015473,
+              "duration": 1959080020,
               "status": "passed"
             },
             "line": 35,
@@ -274,7 +238,7 @@
           },
           {
             "result": {
-              "duration": 27938006,
+              "duration": 33079007,
               "status": "passed"
             },
             "line": 36,
@@ -287,18 +251,6 @@
                 }
               ],
               "location": "taggingSD.user_check_user_first_name_is_present(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3724758315,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "Close the browser",
-            "match": {
-              "location": "taggingSD.close_the_browser()"
             },
             "keyword": "Then "
           }

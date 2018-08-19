@@ -45,16 +45,11 @@ formatter.step({
   "name": "User check user \"David\" first name is present",
   "keyword": "Then "
 });
-formatter.step({
-  "line": 10,
-  "name": "Close the browser",
-  "keyword": "Then "
-});
 formatter.match({
   "location": "taggingSD.user_need_to_be_on_facebook_login_page()"
 });
 formatter.result({
-  "duration": 8809935741,
+  "duration": 4378709057,
   "status": "passed"
 });
 formatter.match({
@@ -67,7 +62,7 @@ formatter.match({
   "location": "taggingSD.user_enters_user_first_name(String)"
 });
 formatter.result({
-  "duration": 143946042,
+  "duration": 1584881574,
   "status": "passed"
 });
 formatter.match({
@@ -80,14 +75,7 @@ formatter.match({
   "location": "taggingSD.user_check_user_first_name_is_present(String)"
 });
 formatter.result({
-  "duration": 22055303,
-  "status": "passed"
-});
-formatter.match({
-  "location": "taggingSD.close_the_browser()"
-});
-formatter.result({
-  "duration": 3695986633,
+  "duration": 24231860,
   "status": "passed"
 });
 formatter.scenario({
@@ -119,16 +107,11 @@ formatter.step({
   "name": "User check user \"David\" first name is present",
   "keyword": "Then "
 });
-formatter.step({
-  "line": 17,
-  "name": "Close the browser",
-  "keyword": "Then "
-});
 formatter.match({
   "location": "taggingSD.user_need_to_be_on_facebook_login_page()"
 });
 formatter.result({
-  "duration": 5697004255,
+  "duration": 5386883581,
   "status": "passed"
 });
 formatter.match({
@@ -141,7 +124,7 @@ formatter.match({
   "location": "taggingSD.user_enters_user_first_name(String)"
 });
 formatter.result({
-  "duration": 3365654454,
+  "duration": 133179703,
   "status": "passed"
 });
 formatter.match({
@@ -154,14 +137,7 @@ formatter.match({
   "location": "taggingSD.user_check_user_first_name_is_present(String)"
 });
 formatter.result({
-  "duration": 25849080,
-  "status": "passed"
-});
-formatter.match({
-  "location": "taggingSD.close_the_browser()"
-});
-formatter.result({
-  "duration": 3676010783,
+  "duration": 23202791,
   "status": "passed"
 });
 formatter.scenario({
@@ -193,16 +169,11 @@ formatter.step({
   "name": "User check user \"David\" first name is present",
   "keyword": "Then "
 });
-formatter.step({
-  "line": 24,
-  "name": "Close the browser",
-  "keyword": "Then "
-});
 formatter.match({
   "location": "taggingSD.user_need_to_be_on_facebook_login_page()"
 });
 formatter.result({
-  "duration": 5601717325,
+  "duration": 3574646152,
   "status": "passed"
 });
 formatter.match({
@@ -215,7 +186,7 @@ formatter.match({
   "location": "taggingSD.user_enters_user_first_name(String)"
 });
 formatter.result({
-  "duration": 3546669461,
+  "duration": 1775883323,
   "status": "passed"
 });
 formatter.match({
@@ -228,14 +199,7 @@ formatter.match({
   "location": "taggingSD.user_check_user_first_name_is_present(String)"
 });
 formatter.result({
-  "duration": 23976467,
-  "status": "passed"
-});
-formatter.match({
-  "location": "taggingSD.close_the_browser()"
-});
-formatter.result({
-  "duration": 3728758932,
+  "duration": 274792479,
   "status": "passed"
 });
 formatter.scenario({
@@ -267,16 +231,11 @@ formatter.step({
   "name": "User check user \"David\" first name is present",
   "keyword": "Then "
 });
-formatter.step({
-  "line": 37,
-  "name": "Close the browser",
-  "keyword": "Then "
-});
 formatter.match({
   "location": "taggingSD.user_need_to_be_on_facebook_login_page()"
 });
 formatter.result({
-  "duration": 9003047338,
+  "duration": 3619520566,
   "status": "passed"
 });
 formatter.match({
@@ -289,7 +248,7 @@ formatter.match({
   "location": "taggingSD.user_enters_user_first_name(String)"
 });
 formatter.result({
-  "duration": 161015473,
+  "duration": 1959080020,
   "status": "passed"
 });
 formatter.match({
@@ -302,14 +261,7 @@ formatter.match({
   "location": "taggingSD.user_check_user_first_name_is_present(String)"
 });
 formatter.result({
-  "duration": 27938006,
-  "status": "passed"
-});
-formatter.match({
-  "location": "taggingSD.close_the_browser()"
-});
-formatter.result({
-  "duration": 3724758315,
+  "duration": 33079007,
   "status": "passed"
 });
 });

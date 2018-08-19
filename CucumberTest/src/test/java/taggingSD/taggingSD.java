@@ -27,13 +27,13 @@ public class taggingSD {
 		driver = new ChromeDriver();
 		//System.setProperty("webdriver.gecko.driver", "C:\\Users\\ambhatta\\OneDrive - Nokia\\Learning\\SoftwareDownload-Automation\\geckodriver.exe");
 		//driver = new FirefoxDriver();
-		
+
 		//System.setProperty("webdriver.ie.driver", "C:\\Users\\ambhatta\\OneDrive - Nokia\\Learning\\SoftwareDownload-Automation\\IEDriverServer_x64_3.13.0\\IEDriverServer.exe");
 		//driver = new InternetExplorerDriver();
-		
+
 		driver.navigate().to("https://www.facebook.com/");
 		driver.manage().window().maximize();
-		
+
 	} 
 
 	@When("^User enters user \"([^\"]*)\" first name$") 
@@ -49,11 +49,10 @@ public class taggingSD {
 		//driver.quit();
 		//throw new PendingException();
 	}
-	
-	@Then("^Close the browser$")
-	public void  close_the_browser(){
-		driver.close();
-		driver.quit();
-	}
 
+	//@Then("^Close the browser$")
+	//public void  close_the_browser(){
+	//driver.close();
+	//driver.quit();
+	//}
 }

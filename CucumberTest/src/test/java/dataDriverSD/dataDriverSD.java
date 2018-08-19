@@ -63,10 +63,10 @@ public class dataDriverSD {
 	}
 	
 	
-	@Then("^Close the browser$")
-	public void  close_the_browser(){
-		driver.close();
-		driver.quit();
-	}
+	//@Then("^Close the browser$")
+	//public void  close_the_browser(){
+		//driver.close();
+		//driver.quit();
+	//}
 
 }

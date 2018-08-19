@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("FeatureFile.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("DatatableFF.feature");
 formatter.feature({
   "line": 1,
   "name": "Create account of Facebook",
@@ -21,33 +21,47 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "User enters user first name",
+  "name": "Enter following details",
+  "rows": [
+    {
+      "cells": [
+        "UserName",
+        "Surname",
+        "Mobile"
+      ],
+      "line": 7
+    },
+    {
+      "cells": [
+        "Amit",
+        "Kumar",
+        "9986135361"
+      ],
+      "line": 8
+    },
+    {
+      "cells": [
+        "Ajay",
+        "Bhattacharjee",
+        "8310426705"
+      ],
+      "line": 9
+    }
+  ],
   "keyword": "When "
 });
-formatter.step({
-  "line": 7,
-  "name": "User check user first name is present",
-  "keyword": "Then "
-});
 formatter.match({
-  "location": "Automation.user_need_to_be_on_facebook_login_page()"
+  "location": "datatableSD.user_need_to_be_on_facebook_login_page()"
 });
 formatter.result({
-  "duration": 11607863709,
+  "duration": 5454110530,
   "status": "passed"
 });
 formatter.match({
-  "location": "Automation.user_enters_user_first_name()"
+  "location": "datatableSD.enter_following_details(DataTable)"
 });
 formatter.result({
-  "duration": 158375500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Automation.user_check_user_first_name_is_present()"
-});
-formatter.result({
-  "duration": 1688850653,
+  "duration": 4597420658,
   "status": "passed"
 });
 });

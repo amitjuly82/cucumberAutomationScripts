@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: automation.RunnerTest
+Test set: taggingSD.taggingTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.072 sec
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 51.328 sec

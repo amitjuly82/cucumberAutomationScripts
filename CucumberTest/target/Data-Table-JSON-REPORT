@@ -12,39 +12,53 @@
         "steps": [
           {
             "result": {
-              "duration": 11607863709,
+              "duration": 5454110530,
               "status": "passed"
             },
             "line": 5,
             "name": "User need to be on facebook login page",
             "match": {
-              "location": "Automation.user_need_to_be_on_facebook_login_page()"
+              "location": "datatableSD.user_need_to_be_on_facebook_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 158375500,
+              "duration": 4597420658,
               "status": "passed"
             },
             "line": 6,
-            "name": "User enters user first name",
+            "name": "Enter following details",
             "match": {
-              "location": "Automation.user_enters_user_first_name()"
+              "location": "datatableSD.enter_following_details(DataTable)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "UserName",
+                  "Surname",
+                  "Mobile"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "Amit",
+                  "Kumar",
+                  "9986135361"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "Ajay",
+                  "Bhattacharjee",
+                  "8310426705"
+                ],
+                "line": 9
+              }
+            ],
             "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1688850653,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User check user first name is present",
-            "match": {
-              "location": "Automation.user_check_user_first_name_is_present()"
-            },
-            "keyword": "Then "
           }
         ]
       }
@@ -53,6 +67,6 @@
     "description": "As a user you need to open facebook home page and do the validation",
     "id": "create-account-of-facebook",
     "keyword": "Feature",
-    "uri": "FeatureFile.feature"
+    "uri": "DatatableFF.feature"
   }
 ]

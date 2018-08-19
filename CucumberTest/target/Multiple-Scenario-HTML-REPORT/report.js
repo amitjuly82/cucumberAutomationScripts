@@ -22,7 +22,7 @@ formatter.match({
   "location": "backgroundSD.user_need_to_be_on_facebook_login_page()"
 });
 formatter.result({
-  "duration": 5443113220,
+  "duration": 5786455058,
   "status": "passed"
 });
 formatter.scenario({
@@ -58,7 +58,7 @@ formatter.match({
   "location": "backgroundSD.user_enters_user_first_name(String)"
 });
 formatter.result({
-  "duration": 1304620503,
+  "duration": 4740084213,
   "status": "passed"
 });
 formatter.match({
@@ -71,14 +71,14 @@ formatter.match({
   "location": "backgroundSD.user_check_user_first_name_is_present(String)"
 });
 formatter.result({
-  "duration": 25927837,
+  "duration": 22981346,
   "status": "passed"
 });
 formatter.match({
   "location": "backgroundSD.close_the_browser()"
 });
 formatter.result({
-  "duration": 3984600166,
+  "duration": 3679642325,
   "status": "passed"
 });
 formatter.background({
@@ -97,7 +97,7 @@ formatter.match({
   "location": "backgroundSD.user_need_to_be_on_facebook_login_page()"
 });
 formatter.result({
-  "duration": 4345056859,
+  "duration": 13630045722,
   "status": "passed"
 });
 formatter.scenario({
@@ -143,7 +143,7 @@ formatter.match({
   "location": "backgroundSD.user_enters_user_first_name(String)"
 });
 formatter.result({
-  "duration": 1293297896,
+  "duration": 128229359,
   "status": "passed"
 });
 formatter.match({
@@ -156,7 +156,7 @@ formatter.match({
   "location": "backgroundSD.user_enters_user_surname(String)"
 });
 formatter.result({
-  "duration": 106944629,
+  "duration": 107503911,
   "status": "passed"
 });
 formatter.match({
@@ -169,21 +169,21 @@ formatter.match({
   "location": "backgroundSD.user_check_user_first_name_is_present(String)"
 });
 formatter.result({
-  "duration": 25108365,
+  "duration": 27089726,
   "status": "passed"
 });
 formatter.match({
   "location": "backgroundSD.user_mobile_field_blank()"
 });
 formatter.result({
-  "duration": 32529401,
+  "duration": 31287315,
   "status": "passed"
 });
 formatter.match({
   "location": "backgroundSD.close_the_browser()"
 });
 formatter.result({
-  "duration": 3928197924,
+  "duration": 3691405364,
   "status": "passed"
 });
 });

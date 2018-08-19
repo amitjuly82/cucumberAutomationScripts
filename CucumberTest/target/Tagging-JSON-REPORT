@@ -1,0 +1,326 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Validate first name field1",
+        "description": "",
+        "id": "create-account-of-facebook;validate-first-name-field1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6580810148,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User need to be on facebook login page",
+            "match": {
+              "location": "taggingSD.user_need_to_be_on_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4517820158,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters user \"David\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 18
+                }
+              ],
+              "location": "taggingSD.user_enters_user_first_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30175986,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User check user \"David\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 17
+                }
+              ],
+              "location": "taggingSD.user_check_user_first_name_is_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3921343334,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the browser",
+            "match": {
+              "location": "taggingSD.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Smoke"
+          },
+          {
+            "line": 5,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Validate first name field2",
+        "description": "",
+        "id": "create-account-of-facebook;validate-first-name-field2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11864204119,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User need to be on facebook login page",
+            "match": {
+              "location": "taggingSD.user_need_to_be_on_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 145598359,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters user \"David\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 18
+                }
+              ],
+              "location": "taggingSD.user_enters_user_first_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23348632,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User check user \"David\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 17
+                }
+              ],
+              "location": "taggingSD.user_check_user_first_name_is_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3858409396,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Close the browser",
+            "match": {
+              "location": "taggingSD.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Validate first name field3",
+        "description": "",
+        "id": "create-account-of-facebook;validate-first-name-field3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9759979616,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User need to be on facebook login page",
+            "match": {
+              "location": "taggingSD.user_need_to_be_on_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132254309,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters user \"David\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 18
+                }
+              ],
+              "location": "taggingSD.user_enters_user_first_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28960593,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User check user \"David\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 17
+                }
+              ],
+              "location": "taggingSD.user_check_user_first_name_is_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3855013877,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Close the browser",
+            "match": {
+              "location": "taggingSD.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Validate first name field5",
+        "description": "",
+        "id": "create-account-of-facebook;validate-first-name-field5",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5465710274,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User need to be on facebook login page",
+            "match": {
+              "location": "taggingSD.user_need_to_be_on_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4637739363,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User enters user \"David\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 18
+                }
+              ],
+              "location": "taggingSD.user_enters_user_first_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30296380,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User check user \"David\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 17
+                }
+              ],
+              "location": "taggingSD.user_check_user_first_name_is_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3798572951,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Close the browser",
+            "match": {
+              "location": "taggingSD.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Create account of Facebook",
+    "description": "As a user you need to open facebook home page and do the validation",
+    "id": "create-account-of-facebook",
+    "keyword": "Feature",
+    "uri": "taggingFF.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ALL"
+      }
+    ]
+  }
+]

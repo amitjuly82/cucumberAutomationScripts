@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Validate first name field",
+        "description": "",
+        "id": "create-account-of-facebook;validate-first-name-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11430079433,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to be on facebook login page",
+            "match": {
+              "location": "parammeterizationSD.user_need_to_be_on_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166576995,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters user \"David\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 18
+                }
+              ],
+              "location": "parammeterizationSD.user_enters_user_first_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50701071,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User check user \"David\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 17
+                }
+              ],
+              "location": "parammeterizationSD.user_check_user_first_name_is_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3975329003,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the browser",
+            "match": {
+              "location": "parammeterizationSD.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create account of Facebook",
+    "description": "As a user you need to open facebook home page and do the validation",
+    "id": "create-account-of-facebook",
+    "keyword": "Feature",
+    "uri": "parammeterizationFF.feature"
+  }
+]

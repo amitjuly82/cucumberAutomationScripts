@@ -1,216 +1,50 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "before": [
-          {
-            "result": {
-              "duration": 3569433464,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hookSD.beforeExecution1()"
-            }
-          },
-          {
-            "result": {
-              "duration": 97105,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hookSD.beforeExecution2()"
-            }
-          }
-        ],
-        "line": 6,
-        "name": "Validate first name field1",
+        "line": 4,
+        "name": "Validate first name field",
         "description": "",
-        "id": "create-account-of-facebook;validate-first-name-field1",
-        "after": [
-          {
-            "result": {
-              "duration": 74210,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hookSD.afterExecution2()"
-            }
-          },
-          {
-            "result": {
-              "duration": 2095005446,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hookSD.afterExecution1()"
-            }
-          }
-        ],
+        "id": "create-account-of-facebook;validate-first-name-field",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2254270747,
+              "duration": 6715838662,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to be on facebook login page",
+            "match": {
+              "location": "Automation.user_need_to_be_on_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2215104651,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters user first name",
+            "match": {
+              "location": "Automation.user_enters_user_first_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2239025649,
               "status": "passed"
             },
             "line": 7,
-            "name": "User need to be on facebook login page",
+            "name": "User check user first name is present",
             "match": {
-              "location": "hookSD.user_need_to_be_on_facebook_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2002567758,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User enters user \"David\" first name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "David",
-                  "offset": 18
-                }
-              ],
-              "location": "hookSD.user_enters_user_first_name(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 26228231,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User check user \"David\" first name is present",
-            "match": {
-              "arguments": [
-                {
-                  "val": "David",
-                  "offset": 17
-                }
-              ],
-              "location": "hookSD.user_check_user_first_name_is_present(String)"
+              "location": "Automation.user_check_user_first_name_is_present()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 5,
-            "name": "@Smoke"
-          },
-          {
-            "line": 5,
-            "name": "@Regression"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1881191976,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hookSD.beforeExecution1()"
-            }
-          },
-          {
-            "result": {
-              "duration": 108157,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hookSD.beforeExecution2()"
-            }
-          }
-        ],
-        "line": 12,
-        "name": "Validate first name field2",
-        "description": "",
-        "id": "create-account-of-facebook;validate-first-name-field2",
-        "after": [
-          {
-            "result": {
-              "duration": 54868,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hookSD.afterExecution2()"
-            }
-          },
-          {
-            "result": {
-              "duration": 2141830998,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hookSD.afterExecution1()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 4397280822,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "User need to be on facebook login page",
-            "match": {
-              "location": "hookSD.user_need_to_be_on_facebook_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 182532223,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "User enters user \"David\" first name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "David",
-                  "offset": 18
-                }
-              ],
-              "location": "hookSD.user_enters_user_first_name(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 27239939,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User check user \"David\" first name is present",
-            "match": {
-              "arguments": [
-                {
-                  "val": "David",
-                  "offset": 17
-                }
-              ],
-              "location": "hookSD.user_check_user_first_name_is_present(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 11,
-            "name": "@Regression"
           }
         ]
       }
@@ -219,12 +53,6 @@
     "description": "As a user you need to open facebook home page and do the validation",
     "id": "create-account-of-facebook",
     "keyword": "Feature",
-    "uri": "hookFF.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@ALL"
-      }
-    ]
+    "uri": "FeatureFile.feature"
   }
 ]

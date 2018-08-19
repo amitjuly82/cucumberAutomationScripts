@@ -25,8 +25,8 @@ import cucumber.api.junit.Cucumber;
 				
 		plugin = {
 		"pretty",
-		"html:target/HTML-REPORT",
-		"json:target/JSON-REPORT"
+		"html:target/Tagging-HTML-REPORT",
+		"json:target/Tagging-JSON-REPORT"
 		}
 
 		)

@@ -18,8 +18,8 @@ import cucumber.api.junit.Cucumber;
 				
 		plugin = {
 		"pretty",
-		"html:target/HTML-REPORT",
-		"json:target/JSON-REPORT"
+		"html:target/Data-Table-HTML-REPORT",
+		"json:target/Data-Table-JSON-REPORT"
 		}
 
 		)

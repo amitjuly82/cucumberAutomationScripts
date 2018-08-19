@@ -6,8 +6,27 @@ formatter.feature({
   "id": "create-account-of-facebook",
   "keyword": "Feature"
 });
-formatter.scenario({
+formatter.background({
   "line": 4,
+  "name": "Common Login",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "User need to be on facebook login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "backgroundSD.user_need_to_be_on_facebook_login_page()"
+});
+formatter.result({
+  "duration": 5443113220,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 7,
   "name": "Validate first name field",
   "description": "",
   "id": "create-account-of-facebook;validate-first-name-field",
@@ -15,31 +34,19 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 5,
-  "name": "User need to be on facebook login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
+  "line": 8,
   "name": "User enters user \"David\" first name",
   "keyword": "When "
 });
 formatter.step({
-  "line": 7,
+  "line": 9,
   "name": "User check user \"David\" first name is present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 8,
+  "line": 10,
   "name": "Close the browser",
   "keyword": "Then "
-});
-formatter.match({
-  "location": "backgroundSD.user_need_to_be_on_facebook_login_page()"
-});
-formatter.result({
-  "duration": 6122401700,
-  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -51,7 +58,7 @@ formatter.match({
   "location": "backgroundSD.user_enters_user_first_name(String)"
 });
 formatter.result({
-  "duration": 1578801337,
+  "duration": 1304620503,
   "status": "passed"
 });
 formatter.match({
@@ -64,18 +71,37 @@ formatter.match({
   "location": "backgroundSD.user_check_user_first_name_is_present(String)"
 });
 formatter.result({
-  "duration": 32594138,
+  "duration": 25927837,
   "status": "passed"
 });
 formatter.match({
   "location": "backgroundSD.close_the_browser()"
 });
 formatter.result({
-  "duration": 3988133447,
+  "duration": 3984600166,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "Common Login",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "User need to be on facebook login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "backgroundSD.user_need_to_be_on_facebook_login_page()"
+});
+formatter.result({
+  "duration": 4345056859,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 11,
+  "line": 13,
   "name": "Validate create user multiple fields",
   "description": "",
   "id": "create-account-of-facebook;validate-create-user-multiple-fields",
@@ -83,41 +109,29 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 12,
-  "name": "User need to be on facebook login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 13,
+  "line": 14,
   "name": "User enters user \"David\" first name",
   "keyword": "When "
 });
 formatter.step({
-  "line": 14,
+  "line": 15,
   "name": "User enters \"Ryan\" as surname",
   "keyword": "And "
 });
 formatter.step({
-  "line": 15,
+  "line": 16,
   "name": "User check user \"David\" first name is present",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 16,
+  "line": 17,
   "name": "User mobile field should be blank",
   "keyword": "But "
 });
 formatter.step({
-  "line": 17,
+  "line": 18,
   "name": "Close the browser",
   "keyword": "Then "
-});
-formatter.match({
-  "location": "backgroundSD.user_need_to_be_on_facebook_login_page()"
-});
-formatter.result({
-  "duration": 4949864981,
-  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -129,7 +143,7 @@ formatter.match({
   "location": "backgroundSD.user_enters_user_first_name(String)"
 });
 formatter.result({
-  "duration": 2153084526,
+  "duration": 1293297896,
   "status": "passed"
 });
 formatter.match({
@@ -142,7 +156,7 @@ formatter.match({
   "location": "backgroundSD.user_enters_user_surname(String)"
 });
 formatter.result({
-  "duration": 120623809,
+  "duration": 106944629,
   "status": "passed"
 });
 formatter.match({
@@ -155,21 +169,21 @@ formatter.match({
   "location": "backgroundSD.user_check_user_first_name_is_present(String)"
 });
 formatter.result({
-  "duration": 22357845,
+  "duration": 25108365,
   "status": "passed"
 });
 formatter.match({
   "location": "backgroundSD.user_mobile_field_blank()"
 });
 formatter.result({
-  "duration": 30924404,
+  "duration": 32529401,
   "status": "passed"
 });
 formatter.match({
   "location": "backgroundSD.close_the_browser()"
 });
 formatter.result({
-  "duration": 3578798574,
+  "duration": 3928197924,
   "status": "passed"
 });
 });

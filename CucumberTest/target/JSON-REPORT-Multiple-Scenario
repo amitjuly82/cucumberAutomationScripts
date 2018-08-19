@@ -1,0 +1,200 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Common Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7420926295,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to be on facebook login page",
+            "match": {
+              "location": "backgroundSD.user_need_to_be_on_facebook_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Validate first name field",
+        "description": "",
+        "id": "create-account-of-facebook;validate-first-name-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5669201792,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters user \"David\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 18
+                }
+              ],
+              "location": "backgroundSD.user_enters_user_first_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55842901,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User check user \"David\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 17
+                }
+              ],
+              "location": "backgroundSD.user_check_user_first_name_is_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3858494264,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the browser",
+            "match": {
+              "location": "backgroundSD.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Common Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7452070568,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to be on facebook login page",
+            "match": {
+              "location": "backgroundSD.user_need_to_be_on_facebook_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Validate create user multiple fields",
+        "description": "",
+        "id": "create-account-of-facebook;validate-create-user-multiple-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5440837961,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters user \"David\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 18
+                }
+              ],
+              "location": "backgroundSD.user_enters_user_first_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 290819744,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters \"Ryan\" as surname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ryan",
+                  "offset": 13
+                }
+              ],
+              "location": "backgroundSD.user_enters_user_surname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32633611,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User check user \"David\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 17
+                }
+              ],
+              "location": "backgroundSD.user_check_user_first_name_is_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40504646,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User mobile field should be blank",
+            "match": {
+              "location": "backgroundSD.user_mobile_field_blank()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 1910890331,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Close the browser",
+            "match": {
+              "location": "backgroundSD.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create account of Facebook",
+    "description": "As a user you need to open facebook home page and do the validation",
+    "id": "create-account-of-facebook",
+    "keyword": "Feature",
+    "uri": "backgroundFF.feature"
+  }
+]

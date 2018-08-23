@@ -10,6 +10,6 @@ When Enter following details
 
 
 #Then User check user "David" first name is present
-#Then Close the browser
+Then Close the browser
 
 

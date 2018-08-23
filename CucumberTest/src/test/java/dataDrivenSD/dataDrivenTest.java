@@ -1,4 +1,4 @@
-package dataDriverSD;
+package dataDrivenSD;
 
 import org.junit.runner.RunWith;
 
@@ -18,8 +18,8 @@ import cucumber.api.junit.Cucumber;
 				
 		plugin = {
 		"pretty",
-		"html:target/Data-Driven-HTML-REPORT",
-		"json:target/Data-Driven-JSON-REPORT.json"
+		"html:target/Data-Table-HTML-REPORT",
+		"json:target/Data-Table-JSON-REPORT.json"
 		}
 
 		)

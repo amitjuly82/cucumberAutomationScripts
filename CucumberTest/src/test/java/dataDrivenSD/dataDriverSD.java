@@ -1,7 +1,8 @@
-package dataDriverSD;
+package dataDrivenSD;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -34,7 +35,8 @@ public class dataDriverSD {
 		//driver = new InternetExplorerDriver();
 		
 		driver.navigate().to("https://www.facebook.com/");
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
+		driver.manage().window().setPosition(new Point(-2000, 0));
 		
 	} 
 
@@ -43,6 +45,7 @@ public class dataDriverSD {
 		driver.findElement(By.xpath("//input[@id='u_0_j']")).sendKeys(userName);
 
 	} 
+
 	
 	@And("^User enters \"([^\"]*)\" as surname$") 
 	public void user_enters_user_surname(String surName) { 
@@ -51,9 +54,11 @@ public class dataDriverSD {
 	}
 
 	@Then("^User check user \"([^\"]*)\" first name is present$") 
-	public void user_check_user_first_name_is_present(String userName) { 
+	public void user_check_user_first_name_is_present1(String userName) { 
 		String userNameActual = driver.findElement(By.xpath("//input[@id='u_0_j']")).getAttribute("value");
 		Assert.assertEquals(userName, userNameActual);
+		//driver.quit();
+		//throw new PendingException();
 	}
 	
 	@But("^User mobile field should be blank$") 

@@ -2,6 +2,7 @@ package automation;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -33,6 +34,8 @@ public class Automation {
 
 		driver.navigate().to("https://www.facebook.com/"); 
 		System.out.println("Opening URL In Browser");	
+		//driver.manage().window().maximize();
+		driver.manage().window().setPosition(new Point(-2000, 0));
 	} 
 
 	@When("^User enters user first name$") 
@@ -45,8 +48,15 @@ public class Automation {
 	public void user_check_user_first_name_is_present() { 
 		String userNameActual = driver.findElement(By.xpath("//input[@id='u_0_j']")).getAttribute("value");
 		Assert.assertEquals("David", userNameActual);
-		driver.quit();
+		
 		//throw new PendingException();
 	}
 
+	@Then("^Close the browser$")
+	public void  close_the_browser(){
+		driver.close();
+		//driver.quit();
+	}
+
+	
 }

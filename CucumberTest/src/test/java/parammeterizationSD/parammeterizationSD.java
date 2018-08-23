@@ -2,6 +2,7 @@ package parammeterizationSD;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -32,7 +33,8 @@ public class parammeterizationSD<string> {
 		//driver = new InternetExplorerDriver();
 		
 		driver.navigate().to("https://www.facebook.com/");
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
+		driver.manage().window().setPosition(new Point(-2000, 0));
 		
 	} 
 
@@ -53,7 +55,7 @@ public class parammeterizationSD<string> {
 	@Then("^Close the browser$")
 	public void  close_the_browser(){
 		driver.close();
-		driver.quit();
+		//driver.quit();
 	}
 
 }

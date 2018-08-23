@@ -11,6 +11,7 @@ import cucumber.api.junit.Cucumber;
 		monochrome = true,
 		
 		dryRun = false,
+		//dryRun = true,
 		
 		features = { "src/test/resources/com/basic/FirstFeatureFileFF/"},
 		

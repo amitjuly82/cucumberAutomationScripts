@@ -50,9 +50,9 @@ public class taggingSD {
 		//throw new PendingException();
 	}
 
-	//@Then("^Close the browser$")
-	//public void  close_the_browser(){
-	//driver.close();
+	@Then("^Close the browser$")
+	public void  close_the_browser(){
+	driver.close();
 	//driver.quit();
-	//}
+	}
 }

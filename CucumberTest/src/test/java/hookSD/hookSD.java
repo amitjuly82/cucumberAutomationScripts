@@ -2,6 +2,7 @@ package hookSD;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -45,7 +46,8 @@ public class hookSD {
 	@Given("User need to be on facebook login page")
 	public void user_need_to_be_on_facebook_login_page() { 
 		driver.navigate().to("https://www.facebook.com/");
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
+		driver.manage().window().setPosition(new Point(-2000, 0));
 	} 
 
 	@When("^User enters user \"([^\"]*)\" first name$") 
